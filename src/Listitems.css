@@ -1,0 +1,33 @@
+.list {
+  color: #00ffaa;
+  width: 350px;
+  margin: 20px;
+  margin-left: 10px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.list p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list p input {
+  background-color: transparent;
+  border: none;
+  color: #00ffaa;
+  font-size: 18px;
+}
+
+.list p input:focus {
+  outline: none;
+  text-decoration-line: underline;
+}
+
+.list p span {
+  cursor: pointer;
+}
+
+.faicons {
+  font-size: 18px;
+}
